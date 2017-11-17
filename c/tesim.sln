@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tesim", "tesimcpp.vcxproj", "{8E5921D3-ED40-4E39-B5BA-E3EC2020BD82}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -10,13 +10,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tesim", "tesimcpp.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtclient", "rtclient\rtclient.vcxproj", "{250A4C20-4722-4E74-857C-20E1B1D0A486}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tesim2plc", "tesim2plc\tesim2plc.vcxproj", "{8062DC5F-8A2E-4DD8-B0DE-3C8DE61C37DD}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tesimlib", "tesimlib\tesimlib.vcxproj", "{B61029C4-DD9A-48C4-8A41-17CA1B535DFE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testsignals", "testsignals\testsignals.vcxproj", "{4762F7E2-F2EF-4FB9-B725-234591AC86D3}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testsignals2plc", "testsignals2plc\testsignals2plc.vcxproj", "{DD1879BC-E4E6-4953-8B89-3F72FE51B043}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,20 +54,6 @@ Global
 		{250A4C20-4722-4E74-857C-20E1B1D0A486}.Release|TwinCAT RT (x86).ActiveCfg = Release|Win32
 		{250A4C20-4722-4E74-857C-20E1B1D0A486}.Release|Win32.ActiveCfg = Release|Win32
 		{250A4C20-4722-4E74-857C-20E1B1D0A486}.Release|Win32.Build.0 = Release|Win32
-		{8062DC5F-8A2E-4DD8-B0DE-3C8DE61C37DD}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{8062DC5F-8A2E-4DD8-B0DE-3C8DE61C37DD}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{8062DC5F-8A2E-4DD8-B0DE-3C8DE61C37DD}.Debug|TwinCAT CE7 (ARMV7).ActiveCfg = Debug|Win32
-		{8062DC5F-8A2E-4DD8-B0DE-3C8DE61C37DD}.Debug|TwinCAT RT (x64).ActiveCfg = Debug|Win32
-		{8062DC5F-8A2E-4DD8-B0DE-3C8DE61C37DD}.Debug|TwinCAT RT (x86).ActiveCfg = Debug|Win32
-		{8062DC5F-8A2E-4DD8-B0DE-3C8DE61C37DD}.Debug|Win32.ActiveCfg = Debug|Win32
-		{8062DC5F-8A2E-4DD8-B0DE-3C8DE61C37DD}.Debug|Win32.Build.0 = Debug|Win32
-		{8062DC5F-8A2E-4DD8-B0DE-3C8DE61C37DD}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{8062DC5F-8A2E-4DD8-B0DE-3C8DE61C37DD}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{8062DC5F-8A2E-4DD8-B0DE-3C8DE61C37DD}.Release|TwinCAT CE7 (ARMV7).ActiveCfg = Release|Win32
-		{8062DC5F-8A2E-4DD8-B0DE-3C8DE61C37DD}.Release|TwinCAT RT (x64).ActiveCfg = Release|Win32
-		{8062DC5F-8A2E-4DD8-B0DE-3C8DE61C37DD}.Release|TwinCAT RT (x86).ActiveCfg = Release|Win32
-		{8062DC5F-8A2E-4DD8-B0DE-3C8DE61C37DD}.Release|Win32.ActiveCfg = Release|Win32
-		{8062DC5F-8A2E-4DD8-B0DE-3C8DE61C37DD}.Release|Win32.Build.0 = Release|Win32
 		{B61029C4-DD9A-48C4-8A41-17CA1B535DFE}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{B61029C4-DD9A-48C4-8A41-17CA1B535DFE}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{B61029C4-DD9A-48C4-8A41-17CA1B535DFE}.Debug|TwinCAT CE7 (ARMV7).ActiveCfg = Debug|Win32
@@ -100,20 +82,6 @@ Global
 		{4762F7E2-F2EF-4FB9-B725-234591AC86D3}.Release|TwinCAT RT (x86).ActiveCfg = Release|Win32
 		{4762F7E2-F2EF-4FB9-B725-234591AC86D3}.Release|Win32.ActiveCfg = Release|Win32
 		{4762F7E2-F2EF-4FB9-B725-234591AC86D3}.Release|Win32.Build.0 = Release|Win32
-		{DD1879BC-E4E6-4953-8B89-3F72FE51B043}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{DD1879BC-E4E6-4953-8B89-3F72FE51B043}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{DD1879BC-E4E6-4953-8B89-3F72FE51B043}.Debug|TwinCAT CE7 (ARMV7).ActiveCfg = Debug|Win32
-		{DD1879BC-E4E6-4953-8B89-3F72FE51B043}.Debug|TwinCAT RT (x64).ActiveCfg = Debug|Win32
-		{DD1879BC-E4E6-4953-8B89-3F72FE51B043}.Debug|TwinCAT RT (x86).ActiveCfg = Debug|Win32
-		{DD1879BC-E4E6-4953-8B89-3F72FE51B043}.Debug|Win32.ActiveCfg = Debug|Win32
-		{DD1879BC-E4E6-4953-8B89-3F72FE51B043}.Debug|Win32.Build.0 = Debug|Win32
-		{DD1879BC-E4E6-4953-8B89-3F72FE51B043}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{DD1879BC-E4E6-4953-8B89-3F72FE51B043}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{DD1879BC-E4E6-4953-8B89-3F72FE51B043}.Release|TwinCAT CE7 (ARMV7).ActiveCfg = Release|Win32
-		{DD1879BC-E4E6-4953-8B89-3F72FE51B043}.Release|TwinCAT RT (x64).ActiveCfg = Release|Win32
-		{DD1879BC-E4E6-4953-8B89-3F72FE51B043}.Release|TwinCAT RT (x86).ActiveCfg = Release|Win32
-		{DD1879BC-E4E6-4953-8B89-3F72FE51B043}.Release|Win32.ActiveCfg = Release|Win32
-		{DD1879BC-E4E6-4953-8B89-3F72FE51B043}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
